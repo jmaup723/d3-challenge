@@ -83,12 +83,12 @@ d3.csv("/assets/data/data.csv").then(journalismData => {
        .attr("text-anchor", "middle")
        .attr("x", svgWidth/2)
        .attr("y", svgHeight -3)
-       .text("In Poverty (%)");
+       .text("Pvrty (%)");
     
    svg.append("text")
        .attr("text-anchor", "middle")
        .attr("transform", "rotate(-90)")
        .attr("x", -svgHeight/2)
        .attr("y", 10)
-       .text("Lacks Healthcare (%)");
+       .text("LoH (%)");
 });
